@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<LangVersion>latest</LangVersion>
 		<TargetFrameworks>netstandard2.0;net462;net8.0</TargetFrameworks>
-		<Version>0.0.0.0</Version>
+		<Version>2026.0126.0025.05</Version>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<RootNamespace>Win64Binaries</RootNamespace>
@@ -55,9 +55,9 @@
 		<PackageReference Include="System.Dynamic.Runtime" Version="4.3.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<EmbeddedResource Include="..\Win64Binaries.resource" />
+		<EmbeddedResource Include="..\Programs.resource" />
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="Global.Sys" Version="2026.124.1056.52" />
+	  <PackageReference Include="Global.Sys" Version="2026.125.2354.6" />
 	</ItemGroup>
 </Project>

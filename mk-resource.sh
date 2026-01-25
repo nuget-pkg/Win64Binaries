@@ -24,4 +24,4 @@ cp -rp /c/Users/user/scoop/apps/ffmpeg/current/* ffmpeg/
 
 find .
 
-7z a -tzip -r ../Win64Binaries.resource *
+7z a -tzip -r ../Programs.resource *
