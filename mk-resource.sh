@@ -22,12 +22,11 @@ cp -rp /c/Users/user/scoop/apps/wget2/current/* wget2/
 mkdir -p yt-dlp
 cp -rp /c/Users/user/scoop/apps/yt-dlp/current/* yt-dlp/
 
-#mkdir -p deno
-#cp -rp /c/Users/user/scoop/apps/deno/current/* deno/
+mkdir -p deno
+cp -rp /c/Users/user/scoop/apps/deno/current/* deno/
 
-#mkdir -p ffmpeg
-#cp -rp /c/Users/user/scoop/apps/ffmpeg/current/* ffmpeg/
-#cp -rp /c/Users/user/scoop/apps/ffmpeg/current/bin/ffmpeg.exe ffmpeg/
+mkdir -p ffmpeg
+cp -rp /c/Users/user/scoop/apps/ffmpeg/current/bin/ffmpeg.exe ffmpeg/
 
 find .
 
