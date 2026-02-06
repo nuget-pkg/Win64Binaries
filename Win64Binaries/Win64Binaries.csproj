@@ -2,9 +2,9 @@
 	<PropertyGroup>
 		<LangVersion>latest</LangVersion>
 		<!--<TargetFrameworks>netstandard2.0;net462;net8.0</TargetFrameworks>-->
-		<TargetFrameworks>netstandard2.0</TargetFrameworks>
-		<Version>2026.0206.2128.43</Version>
-		<Nullable>disable</Nullable>
+		<TargetFrameworks>netstandard2.0;net462;net8.0</TargetFrameworks>
+		<Version>2026.0206.2133.48</Version>
+		<Nullable>enable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<RootNamespace>Win64Binaries</RootNamespace>
 		<PlatformTarget>AnyCPU</PlatformTarget>
