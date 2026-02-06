@@ -13,7 +13,7 @@ static class Program
     static void Main(string[] args)
     {
         Echo(new { args });
-        Echo(Win64Binaries.Add2(11, 22));
+        //Echo(Win64Binaries.Add2(11, 22));
         string instDir = Win64Binaries.InstallBinaries();
         Echo(instDir, "instDir");
         //string output = Sys.GetProcessStdout(Encoding.UTF8, "bash", "-c", $"find '{instDir}'");

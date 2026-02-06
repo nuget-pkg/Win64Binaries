@@ -3,7 +3,7 @@
 		<OutputType>Exe</OutputType>
 		<LangVersion>latest</LangVersion>
 		<TargetFramework>net462</TargetFramework>
-		<Nullable>disable</Nullable>
+		<Nullable>enable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<RootNamespace>Win64Binaries.Demo</RootNamespace>
 		<PlatformTarget>AnyCPU</PlatformTarget>
