@@ -58,7 +58,4 @@
 	<ItemGroup>
 		<EmbeddedResource Include="..\Programs.resource" />
 	</ItemGroup>
-	<ItemGroup>
-	  <PackageReference Include="Global.Sys" Version="2026.125.2354.6" />
-	</ItemGroup>
 </Project>
