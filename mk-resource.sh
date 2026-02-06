@@ -13,20 +13,25 @@ rm -rf tmp *.resource
 mkdir tmp
 cd $cwd/tmp
 
-mkdir -p aria2
-cp -rp /c/Users/user/scoop/apps/aria2/current/* aria2/
+#mkdir -p aria2
+#cp -rp /c/Users/user/scoop/apps/aria2/current/* aria2/
+cp -rp /c/Users/user/scoop/apps/aria2/current/*.exe .
 
-mkdir -p wget2
-cp -rp /c/Users/user/scoop/apps/wget2/current/* wget2/
+#mkdir -p wget2
+#cp -rp /c/Users/user/scoop/apps/wget2/current/* wget2/
+cp -rp /c/Users/user/scoop/apps/wget2/current/*.exe .
 
-mkdir -p yt-dlp
-cp -rp /c/Users/user/scoop/apps/yt-dlp/current/* yt-dlp/
+#mkdir -p yt-dlp
+#cp -rp /c/Users/user/scoop/apps/yt-dlp/current/* yt-dlp/
+cp -rp /c/Users/user/scoop/apps/yt-dlp/current/*.exe .
 
-mkdir -p deno
-cp -rp /c/Users/user/scoop/apps/deno/current/* deno/
+#mkdir -p deno
+#cp -rp /c/Users/user/scoop/apps/deno/current/* deno/
+cp -rp /c/Users/user/scoop/apps/deno/current/*.exe .
 
-mkdir -p ffmpeg
-cp -rp /c/Users/user/scoop/apps/ffmpeg/current/bin/ffmpeg.exe ffmpeg/
+#mkdir -p ffmpeg
+#cp -rp /c/Users/user/scoop/apps/ffmpeg/current/bin/ffmpeg.exe ffmpeg/
+cp -rp /c/Users/user/scoop/apps/ffmpeg/current/bin/ffmpeg.exe .
 
 find .
 
