@@ -58,4 +58,7 @@
 	<ItemGroup>
 		<EmbeddedResource Include="..\Programs.resource" />
 	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="EasyObject" Version="2026.206.2034.30" />
+	</ItemGroup>
 </Project>
