@@ -4,7 +4,7 @@
 		<!--<TargetFrameworks>netstandard2.0;net462;net8.0</TargetFrameworks>-->
 		<TargetFrameworks>netstandard2.0</TargetFrameworks>
 		<Version>2026.0126.0034.58</Version>
-		<Nullable>enable</Nullable>
+		<Nullable>disable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<RootNamespace>Win64Binaries</RootNamespace>
 		<PlatformTarget>AnyCPU</PlatformTarget>

@@ -7,10 +7,6 @@ namespace Global;
 // ReSharper disable once InconsistentNaming
 public static class Win64Binaries
 {
-    public static int Add2(int a, int b)
-    {
-        return a + b;
-    }
     public static string InstallBinaries()
     {
         string instRoot = Path.Combine(
