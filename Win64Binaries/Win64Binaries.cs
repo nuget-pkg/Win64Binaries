@@ -7,6 +7,7 @@ namespace Global;
 // ReSharper disable once InconsistentNaming
 public static class Win64Binaries
 {
+    public const string Version = "v2026.0207.0956.36";
     public static string InstallBinaries()
     {
         string instRoot = Path.Combine(
@@ -14,9 +15,9 @@ public static class Win64Binaries
             ".ProgramData",
             "Win64Binaries");
         string instDir = Installer.InstallZipFromURL(
-            "https://github.com/nuget-pkg/Win64Binaries/releases/download/Win64Binaries.v2026.0207.0956.36/Win64Binaries.zip",
+            $"https://github.com/nuget-pkg/Win64Binaries/releases/download/Win64Binaries.{Version}/Win64Binaries.zip",
            instRoot,
-            "Win64Binaries");
+            $"Win64Binaries.{Version}");
         return instDir;
     }
 }
