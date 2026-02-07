@@ -1,0 +1,1 @@
+Win64Binaries Win64Binaries.v2026.0207.0956.36 https://github.com/nuget-pkg/Win64Binaries/releases/download/Win64Binaries.v2026.0207.0956.36/Win64Binaries.zip

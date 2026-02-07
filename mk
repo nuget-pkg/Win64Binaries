@@ -9,7 +9,7 @@ scoop install deno yt-dlp ffmpeg wget2 aria2
 scoop update deno yt-dlp ffmpeg wget2 aria2
 
 cd $cwd
-rm -rf tmp *.resource
+rm -rf tmp *.resource *.zip
 mkdir tmp
 cd $cwd/tmp
 
@@ -35,4 +35,5 @@ cp -rp /c/Users/user/scoop/apps/ffmpeg/current/bin/ffmpeg.exe .
 
 find .
 
-7z a -tzip -r ../Programs.resource *
+#7z a -tzip -r ../Programs.resource *
+7z a -tzip -r Win64Binaries.zip *
