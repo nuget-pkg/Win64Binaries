@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<LangVersion>latest</LangVersion>
 		<TargetFrameworks>netstandard2.0</TargetFrameworks>
-		<Version>2026.0206.2147.37</Version>
+		<Version>2026.0207.1006.14</Version>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<RootNamespace>Win64Binaries</RootNamespace>
@@ -51,9 +51,6 @@
 		<None Include=".\README.md" Pack="true" PackagePath="" />
 	</ItemGroup>
 	<ItemGroup>
-		<EmbeddedResource Include="..\Programs.resource" />
-	</ItemGroup>
-	<ItemGroup>
-	  <PackageReference Include="EasyObject" Version="2026.206.2034.30" />
+	  <PackageReference Include="EasyObject" Version="2026.207.331.46" />
 	</ItemGroup>
 </Project>
