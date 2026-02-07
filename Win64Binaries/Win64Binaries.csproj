@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<LangVersion>latest</LangVersion>
-		<TargetFrameworks>netstandard2.0</TargetFrameworks>
-		<Version>2026.0207.1006.14</Version>
+		<TargetFrameworks>netstandard2.0;net462;net8.0</TargetFrameworks>
+		<Version>2026.0207.1008.12</Version>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<RootNamespace>Win64Binaries</RootNamespace>
