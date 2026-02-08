@@ -51,6 +51,6 @@
 		<None Include=".\README.md" Pack="true" PackagePath="" />
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="EasyObject" Version="2026.207.331.46" />
+	  <PackageReference Include="EasyObject" Version="2026.207.1825.58" />
 	</ItemGroup>
 </Project>
